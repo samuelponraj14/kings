@@ -1,0 +1,172 @@
+.contact-container{
+    padding: 50px 80px 50px 80px;
+    background: url('../../assets/contact-bg.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-content{
+    padding: 50px;  
+}
+
+.contact-content p{
+    font-size: 20px;
+}
+
+.contact-title h1{
+    color: #ff0006;
+    text-align: left;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.contact-text-form{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+    margin-top: 40px;
+   
+}
+
+.contact-text{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 50px;
+}
+
+.contact-text p{
+    padding: 5px 0;
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+.contact-form{
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+}
+
+.contact-form form{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.item2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.item3, .item4, .item5, .item6{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.color-btn{
+    background-color:  #ff0004d8 !important;
+    width: 55%;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    
+}
+
+.color-btn:hover{
+    background-color: #ff0004d8;
+    font-weight: 700;
+}
+
+.address span .icon{
+    height: 15px;
+    width: 15px;
+    padding-top: 5px;
+}
+
+.email a{
+    text-decoration: none;
+    color: black;
+}
+@media (max-width: 480px) {
+
+
+    .contact-container{
+        display: flex !important; 
+        align-items: center;
+        flex-direction: column;
+        text-align: justify;
+        background: white;
+        padding: 20px 5px 50px 5px;
+ 
+    }
+
+
+    .contact-title{
+        padding: 10px 0 30px 0;
+        
+    }
+
+    .contact-title h1{
+        font-size: 30px;
+    }
+
+    .contact-content{
+        padding: 0 10px;
+    }
+
+    .contact-content .para{
+        font-size: 15px;
+        text-align: justify;
+   
+    }
+
+    .contact-text-form{
+
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        gap: 0px;
+    }
+
+    .contact-text{
+
+        margin: 0;
+        padding: 10px 0 10px 0;
+        height: 150px;
+        width: 100%;
+    }
+
+    .contact-text p{
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .contact-form{
+        width: auto;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        gap: 15px;
+        
+    }
+
+    .contact-form .form input{
+        font-size: 12px;
+        padding: 10px;
+    }
+
+}

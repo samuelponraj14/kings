@@ -1,0 +1,15 @@
+
+
+.home img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+@media (max-width: 480px){
+    .home img{
+        background-size: contain;
+        max-width: 100%;
+        height: auto;
+    }
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@350&display=swap');
+
+.about-us{
+    padding: 50px ;
+    background: url('../../assets/about-bg.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+   
+}
+
+.about-us h1{
+    font-size: 50px;
+    color: #ff0006;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.matter{
+    padding: 30px;
+    
+    text-align: justify;
+    font-family: 'Noto Sans Tamil', sans-serif;
+    line-height: 1.5;
+    
+}
+
+.editor{
+    text-align: end;
+    padding-right: 150px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1;
+}
+
+@media screen and (max-width: 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .about-us{
+        padding: 10px 5px 10px 5px;
+        background: white;
+    }
+
+    .matter{
+        padding: 13px;
+        text-align: justify;
+        font-size: 10px;
+    }
+
+    .about-us h1{
+      
+        text-align: center;
+        padding: 10px 0 10px 0;
+        font-size: 30px;
+    }
+
+    .editor{
+        text-align: end;
+        padding-right: 40px;
+        font-size: 10px;
+    }
+}   
